@@ -13,5 +13,5 @@ def message():
 def get_sucursal_address(num_sucursal:int):
     linea1 = 'Sucursal : '+str.upper(df_suc.iloc[num_sucursal,1])
     linea2 = 'Dirección: '+df_suc.iloc[num_sucursal,2]
-    valret = f"{linea1}\n{linea2}"
+    valret = f"{linea1}    {linea2}"
     return valret
